@@ -1,8 +1,8 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
+      title="Reach out to me!"
+      subtitle="Form in development, find me on Twitter @YourPalEmma"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -14,7 +14,7 @@
                 Hello!
               </p>
               <p class="subtitle">
-                What can I do for you?
+                Leave a message here, I'll check it out when I can!
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
@@ -28,15 +28,13 @@
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                   Emma is a writer, photographer and all around nice person.
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  If you leave her a message here, she'll do her best to get back to you. 
+                  Make sure to say what it is you're emailing about so that she doesn't get too nervous to reply! 
+                  And please, be patient.
                 </p>
               </div>
             </article>
