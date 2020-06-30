@@ -1,8 +1,7 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
+      title="How to find me"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -14,7 +13,7 @@
                 Hello!
               </p>
               <p class="subtitle">
-                What can I do for you?
+                Here are all the places you can find me online!
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
@@ -28,23 +27,21 @@
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                   Emma is a writer, photographer and all around nice person.
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                 Use these links to find her online. Don't be scared to reach out anytime!
                 </p>
               </div>
             </article>
           </div>
-          <div class="tile is-parent is-8">
-            <article class="tile is-child box">
-              <contact-form />
-            </article>
+          <div class = "find-me-online">
+            <h4>Twitter</h4>
+              <p>@YourPalEmma</p>
+            <br><br>
+            <h4>Email</h4>
+              <p>em@emmawrites.co</p>
           </div>
         </div>
       </template>
@@ -58,14 +55,3 @@
     </main-section>
   </div>
 </template>
-<script>
-import ContactForm from '~/components/ContactForm'
-export default {
-  head() {
-    return {
-      title: `Contact | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: { ContactForm }
-}
-</script>

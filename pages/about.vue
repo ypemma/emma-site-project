@@ -25,7 +25,6 @@
             You can find her on Twitter @YourPalEmma and on instagram in the future, where she uploads photos taken outside of work.
             She works in Orlando taking photos of models, products and street scenes.
           </p>
-          <quote-card />
           <h3>A Learner??</h3>
           <p>
             Emma is currently learning how to make THIS WEBSITE (!?!?!) with some very cool and great help from <a href="https://odomojuli.com/">Juli Odomo</a>, who may end up reading this.
@@ -34,49 +33,7 @@
           </p>
         </div>
 
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Ignoring
-              </p>
-              <p class="subtitle">
-                (placeholder)
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                These
-              </p>
-              <p class="subtitle">
-                (placeholder)
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                For now
-              </p>
-              <p class="subtitle">
-                (placeholder)
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-        </div>
-      </template>
-
+      
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
           Latest Posts
@@ -86,14 +43,3 @@
     </main-section>
   </div>
 </template>
-<script>
-import QuoteCard from '~/components/cards/QuoteCard'
-export default {
-  head() {
-    return {
-      title: `About | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: { QuoteCard }
-}
-</script>
