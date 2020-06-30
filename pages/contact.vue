@@ -1,8 +1,7 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Reach out to me!"
-      subtitle="Form in development, find me on Twitter @YourPalEmma"
+      title="How to find me"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -14,7 +13,7 @@
                 Hello!
               </p>
               <p class="subtitle">
-                Leave a message here, I'll check it out when I can!
+                Here are all the places you can find me online!
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
@@ -32,17 +31,17 @@
                   </strong>
                 </p>
                 <p>
-                  If you leave her a message here, she'll do her best to get back to you. 
-                  Make sure to say what it is you're emailing about so that she doesn't get too nervous to reply! 
-                  And please, be patient.
+                 Use these links to find her online. Don't be scared to reach out anytime!
                 </p>
               </div>
             </article>
           </div>
-          <div class="tile is-parent is-8">
-            <article class="tile is-child box">
-              <contact-form />
-            </article>
+          <div class = "find-me-online">
+            <h4>Twitter</h4>
+              <p>@YourPalEmma</p>
+            <br><br>
+            <h4>Email</h4>
+              <p>em@emmawrites.co</p>
           </div>
         </div>
       </template>
@@ -56,14 +55,3 @@
     </main-section>
   </div>
 </template>
-<script>
-import ContactForm from '~/components/ContactForm'
-export default {
-  head() {
-    return {
-      title: `Contact | ${this.$siteConfig.siteName}`
-    }
-  },
-  components: { ContactForm }
-}
-</script>
