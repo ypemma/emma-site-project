@@ -36,12 +36,22 @@
               </div>
             </article>
           </div>
-          <div class = "find-me-online">
-            <h4>Twitter</h4>
-              <p>@YourPalEmma</p>
-            <br><br>
-            <h4>Email</h4>
-              <p>em@emmawrites.co</p>
+          <div class = "tile is-parent is-8">
+            <article class = "tile is-child box">
+              <h4>
+                Twitter
+              </h4>
+                <p>
+                  @YourPalEmma
+                </p>
+              <br><br>
+              <h4>
+                Email
+              </h4>
+              <p>
+                em@emmawrites.co
+              </p>
+            </article>
           </div>
         </div>
       </template>
